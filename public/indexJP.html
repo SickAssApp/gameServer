@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title></title>
+        
+        <!-- CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery.classycountdown.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- Javascript -->
+        
+        <script src="//code.createjs.com/createjs-2014.12.12.min.js"></script>
+        
+        <script src="lib/jquery-2.1.3.min.js" type="text/javascript"></script>
+        
+        <script data-main="app" src="lib/require.js"></script>
+       
+    </head>
+    <body>         
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12 column" style="border-style: dashed;border-width: 1px;">
+                    <h3>
+                        Type with joy!!
+                    </h3>
+                    <span id="growsound">Grow!</span>
+                </div>
+            </div>
+            <div class="row clearfix" style="display: flex;align-items: center;border-style: dashed;border-width: 1px;">
+                    <canvas id="animateCanvas1" width="300" height="200" style = "margin:0 auto;"></canvas>            
+            </div>
+            <div class="row clearfix">
+                <div class="col-xs-12 col-md-12 column"style="border-style: dashed;border-width: 1px;">
+                    <h2><p id="gameTxt"></p></h2>
+                    <input type="text" class="form-control" id="gameInput" placeholder="">
+                    <labal id="hintText"></labal>
+                    <span id="colorHint"></span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
